@@ -3,7 +3,7 @@
 
 默认参数配置：
 
-`
+```
 $.fn.FullPages.defaults = {
 		selectors: {
 			sections: ".sections",
@@ -20,14 +20,14 @@ $.fn.FullPages.defaults = {
 		direction: "vertical",   // 滑动方向vertical,horizontal
 		callback: ""             // 回调函数
 	};
-  `
+  ```
   
   自定义参数配置：
   
-  `
+  ```
   <script type="text/javascript">
 		$("#container").FullPages({
 			direction : "horizontal"
 		});
 	</script>
-  `
+  ```
