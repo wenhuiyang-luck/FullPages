@@ -1,7 +1,19 @@
 # FullPages
 一款jQuery全屏滚动插件
 
-默认参数配置：
+HTML 结构：
+```
+<div id="container" data-FullPages>
+	<div class="sections">
+		<div class="section active" id="section0"></div>
+		<div class="section" id="section1"></div>
+		<div class="section" id="section2"></div>
+		<div class="section" id="section3"></div>
+	</div>
+</div>
+```
+
+插件默认参数：
 
 ```
 $.fn.FullPages.defaults = {
@@ -22,12 +34,13 @@ $.fn.FullPages.defaults = {
 };
 ```
   
-自定义参数配置：
+自定义参数配置方法：
   
 ```
 <script type="text/javascript">
 	$("#container").FullPages({
-	direction : "horizontal"
+		direction : "horizontal"
+		...
 	});
 </script>
 ```
