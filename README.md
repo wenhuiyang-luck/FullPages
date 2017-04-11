@@ -31,3 +31,4 @@ $.fn.FullPages.defaults = {
 		});
 	</script>
   ```
+  
