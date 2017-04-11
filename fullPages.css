@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: Arial,"Microsoft YaHei",sans-serif;
+}
+html,body{
+	height: 100%;
+	overflow: hidden;
+}
+#container,
+.sections,
+.section {
+	height: 100%;
+	position: relative;
+}
+
+#section0,
+#section1,
+#section2,
+#section3 {
+	background-color: #000;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+#section0{
+	background-image: url(images/1.jpg);
+}
+
+#section1{
+	background-image: url(images/2.jpg);
+}
+
+#section2{
+	background-image: url(images/3.jpg);
+}
+
+#section3{
+	background-image: url(images/4.jpg);
+}
+
+.left{
+	float: left;
+}
+
+.pages{
+	position: fixed;
+	list-style: none;
+}
+
+.vertical.pages {
+	right: 10px;
+	top: 50%;
+	margin-top: -46px;
+}
+
+.horizontal.pages {
+	left: 50%;
+	bottom: 10px;
+	margin-left: -46px;
+}
+
+.pages li {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #fff;
+	margin: 10px 5px;
+	cursor: pointer;
+}
+
+.horizontal.pages li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.pages li.active {
+	width: 14px;
+	height: 14px;
+	border: 2px solid #fffe00;
+	background: none;
+	margin-left: 0;
+}
+
+.section .content {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	margin-top: -70px;
+}
+.section .title{
+	margin: 0 auto;
+	color: #fff;
+	font-size: 70px;
+}
